@@ -1,0 +1,181 @@
+[
+    {
+        "mode" : 0, 
+        "histoire": ["Bienvenue dans Légendes Pokémon !", "Vous devez sauver le monde du monstrueux", "Giratina !", "Ne négligez aucun indice."], 
+        "choix": ["Commencer", "Quitter"], 
+        "image": "intro.png", 
+        "bruitage": "", 
+        "musique": "intro.ogg", 
+        "adj": [1, -1]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Vous vous trouvez au lac de Sinnoh.", "Parlez aux Villageois et Pokémon", "pour obtenir des indices."], 
+        "choix": ["Parler à Dialga", "Parler au villageois", "Voler avec Lugia"], 
+        "image": "lac.png", 
+        "bruitage": "", 
+        "musique": "lake.ogg", 
+        "adj": [2, 3, 4]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Dialga n'a pas vu ni Giratina ni Palkia", "il est inquiet : Palkia de s'absente jamais !"], 
+        "choix": ["Parler au villageois", "Voler avec Lugia"], 
+        "image": "dialga.png", 
+        "bruitage": "", 
+        "musique": "", 
+        "adj": [3, 4]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Les villageois racontent qu'un", "grondement s'est fait entendre", "du côté droit du Mont Couronnée !"], 
+        "choix": ["Parler à Dialga", "Voler avec Lugia"], 
+        "image": "villageois.png", 
+        "bruitage": "", 
+        "musique": "", 
+        "adj": [2, 4]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Je me dirige vers Hoenn !", "Voulez-vous m'accompagner ?"], 
+        "choix": ["Aller à Hoenn", "Retourner au Lac"], 
+        "image": "lugiaLac.png", 
+        "bruitage": "", 
+        "musique": "veloSinnoh.ogg", 
+        "adj": [6, 1]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Je me dirige vers Sinnoh !", "Voulez-vous m'accompagner ?"], 
+        "choix": ["Aller à Sinnoh", "Retourner à la place"], 
+        "image": "lugiaHoenn.png", 
+        "bruitage": "", 
+        "musique": "veloHoenn.ogg", 
+        "adj": [1, 6]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Vous vous trouvez à la place de Hoenn.", "Un trio de Pokémon légendaires", "est sur place !", "Ils ont sûrement des informations !"], 
+        "choix": ["Parler à Kyogre", "Parler à Rayquaza", "Voler avec Lugia"], 
+        "image": "hoenn.png", 
+        "bruitage": "", 
+        "musique": "pokemart.ogg", 
+        "adj": [7, 8, 5]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Kyogre vous raconte une anecdote :", "fût un temps, il avait trouvé une perle", "elle était si scintillante", "qu'il l'eu perdu à l'intérieur même", "du Mont Couronnée !", "Il comptait pourtant l'offir à Palkia..."], 
+        "choix": ["Parler à Rayquaza", "Voler avec Lugia"], 
+        "image": "kyogre.png", 
+        "bruitage": "", 
+        "musique": "", 
+        "adj": [8, 5]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Rayquaza qui volait aux alentours de Sinnoh", "a aperçu Giratina et Palkia partir", "en direction du Mont Couronnée !", "Groudon doit un service à Rayquaza :", "il peut donc se diriger vers le Mont."], 
+        "choix": ["Parler à Kyogre", "Voler avec Lugia", "Partir avec Groudon"], 
+        "image": "rayquaza.png", 
+        "bruitage": "", 
+        "musique": "", 
+        "adj": [7, 5, 9]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Groudon est étonné, une lueur brillante émane", "de la partie basse du Mont.", "Utilise le résultat de ton enqûete pour", "te repérer dans le Mont !"], 
+        "choix": ["Passer par le haut", "Passer par le bas"], 
+        "image": "groudon.png", 
+        "bruitage": "", 
+        "musique": "mont.ogg", 
+        "adj": [11, 14]
+    },
+
+    {
+        "mode" : 4, 
+        "histoire": ["Vous entrez dans un piège", "de Giratina !", "Vous êtes coincé !"], 
+        "choix": ["Réessayer", "Quitter"], 
+        "image": "piege.png", 
+        "bruitage": "bump.ogg", 
+        "musique": "giratina.ogg", 
+        "adj": [0, -1]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Vous êtes au sommet du Mont Couronné !", "Une échelle vous permet de descendre."], 
+        "choix": ["Aller à Gauche", "Aller à Droite", "Aller en Bas"], 
+        "image": "cH.png", 
+        "bruitage": "", 
+        "musique": "", 
+        "adj": [10, 12, 15]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Vous êtes en haut à droite.", "Une échelle vous permet de monter."], 
+        "choix": ["Aller à Gauche", "Aller à Droite", "Aller en Haut"], 
+        "image": "cHD.png", 
+        "bruitage": "", 
+        "musique": "", 
+        "adj": [11, 13, 10]
+    },
+
+    {
+        "mode" : 2, 
+        "histoire": ["Vous trouvez Giratina.", "Pour le vaincre,", "vous devez vous sacrifier.", "Giratina est vaincu !"], 
+        "choix": ["Retenter", "Quitter"], 
+        "image": "giratina1.png", 
+        "bruitage": "bump.ogg", 
+        "musique": "gagne1.ogg", 
+        "adj": [0, -1]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Vous êtes dans un couloir en bas du Mont."], 
+        "choix": ["Aller à Gauche", "Aller à Droite"], 
+        "image": "cB.png", 
+        "bruitage": "", 
+        "musique": "", 
+        "adj": [10, 15]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Vous êtes à un intersection en bas du Mont."], 
+        "choix": ["Aller à Gauche", "Aller à Droite", "Aller en Haut", "Aller en Bas"], 
+        "image": "cBD.png", 
+        "bruitage": "", 
+        "musique": "", 
+        "adj": [14, 16, 11, 10]
+    },
+
+    {
+        "mode" : 1, 
+        "histoire": ["Vous trouvez Palkia", "elle semble être sous l'emprise de quelque chose", "La pierre qu'elle tient est ensorcelée !", "Vous lui enlevez.", "Palkia est confuse."], 
+        "choix": ["Aller en Haut", "Aller à Droite", "Aller en Bas"], 
+        "image": "palkia.png", 
+        "bruitage": "", 
+        "musique": "arceus.ogg", 
+        "adj": [10, 17, 10]
+    },
+
+    {
+        "mode" : 3, 
+        "histoire": ["Vous trouvez Giratina", "en utilisant la pierre contre lui !", "Giratina est vaincu !"], 
+        "choix": ["Rejouer", "Quitter"], 
+        "image": "giratina2.png", 
+        "bruitage": "bump.ogg", 
+        "musique": "gagne2.ogg", 
+        "adj": [0, -1]
+    }
+]
